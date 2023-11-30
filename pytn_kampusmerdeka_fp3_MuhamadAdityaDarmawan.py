@@ -64,11 +64,6 @@ import pickle
 
 """# Data Loading"""
 
-# Upload dataset heart_failure_clinical_records_dataset.csv
-
-from google.colab import files
-uploaded = files.upload()
-
 # Load dataset heart_failure_clinical_records_dataset.csv sebagai dataframe
 
 df = pd.read_csv("heart_failure_clinical_records_dataset.csv")
